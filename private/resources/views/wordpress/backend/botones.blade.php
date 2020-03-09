@@ -1,0 +1,7 @@
+<!--<a class="btn btn-primary " href="#" data-id="{{$id}}" >Ver</a>-->
+
+<a class="btn btn-warning  btnEdit" href="#" data-id="{{$id}}" data-toggle="modal" data-target="#modalEdit"  >Edit</a>
+
+<a class="btn btn-danger btnDelete" data-id="{{$id}}" href="#">Delete</a>
+
+

@@ -1,0 +1,275 @@
+
+
+*{
+    border-radius: .0rem!important;
+}
+
+
+.btn, .paginate_button{
+
+    border-radius: 0rem;
+
+}
+
+button, a {
+    outline: none!important;
+    border: none!important;
+    box-shadow:none!important;
+}
+
+.btnDisable{
+    cursor:initial!important;
+}
+
+.btnDisable:hover{
+    background-color:#dc3545!important;
+}
+
+
+.btnDisable:focus{
+    background-color:#dc3545!important;
+}
+
+
+.w-90{
+    width:90%!important;
+    max-width:90%!important;
+}
+
+.margin-center{
+    
+    margin:0 auto;
+}
+
+.card-body{
+    position:relative!important;
+    
+}
+
+#map, #emap{
+    height: 400px!important;
+    width: 100%!important;
+    /*position:initial!important;*/
+    /*overflow:initial!important;*/
+}
+
+
+#createForm{
+    padding:0px!important;
+    margin:0px!important;
+}
+
+.success{
+    background-color:#00c3a4!important;
+}
+
+.card-success:not(.card-outline)>.card-header {
+    background-color: #00c3a4!important;
+}
+
+
+/*TRADUCTOR GOOGLE*/
+
+.switcher.notranslate .option{
+    
+position: absolute!important;
+    background: white!important;
+    border: none!important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)!important;
+    overflow-y: hidden!important;
+    margin-top: 7px!important;
+        right:10px!important;
+}
+
+
+.switcher {
+    width:auto!important;
+    margin-left: 11px;
+}
+
+.switcher .selected {
+    background: none!important;
+}
+
+.switcher .selected a {
+    color: rgba(0,0,0,.5)!important;
+    border: 0px!important;
+    font-family: 'Source Sans Pro', sans-serif!important;
+    width:auto!important;
+        font-size: 1.2em;
+    
+}
+
+
+.switcher .selected a:hover {
+    color:#60c2a4!important;
+      background: white url(//informatica.ieszaidinvergeles.org:9038/wordpress/wp-content/plugins/gtranslate/arrow_down.png) 146px center no-repeat!important;
+    
+}
+
+
+.switcher .option a {
+    color: #000;
+    padding: 7px 10px;
+}
+
+
+
+.switcher .option a:hover {
+    background: #6c69be!important;
+    color: white!important;
+}
+
+
+
+
+/*FIN TRADUCTOR GOOGLE*/
+
+
+
+/*TABLAS*/
+
+.dataTables_length label, #table_id_filter label, #table_id th,#table_id_info{
+    font-weight: 400!important;
+    margin-bottom: .0rem!important;
+    color: #232323!important;
+}
+
+.dataTables_length select{
+    border: none;
+    color: #232323;
+    font-weight: 700;
+    outline:none;
+    
+}
+
+
+
+#table_id_filter label input{
+    border: 0px;
+    outline:none;
+    background:#f9f9f9;
+}
+
+#table_id_filter{
+    display:flex;
+align-items:center!important;
+}
+
+
+
+.card{
+    border:none!important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)!important;
+}
+
+
+
+
+
+
+.my_card-header{
+    display:flex;
+    align-items:center;
+    position:relative;
+    overflow:hidden;
+}
+
+.card-header button {
+    margin-left: auto;
+    margin-right: 0px!important;
+    
+}
+
+.btn-outline-primary {
+    color: white !important;
+    border-color: white!important;
+}
+
+.btn-outline-primary:hover {
+    color: #fff!important;
+    background-color: black!important;
+    border-color: black!important;
+}
+
+.dataTables_length, #table_id_filter{
+    margin-bottom:20px!important;
+}
+
+.dataTables_info, .dataTables_paginate{
+    margin-top:20px!important;
+}
+
+
+table.dataTable.no-footer{
+        border-bottom: 0px solid #dddddd;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 18px;
+    border-bottom: 0px solid #dddddd;
+}
+
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
+    border-top: 0px solid #ddd;
+}
+
+
+td{
+    font-size: 1em;
+    font-weight:100;
+    text-transform: lowercase;
+}
+
+td:first-letter {
+    text-transform: uppercase;
+}
+
+
+table.dataTable.display tbody tr.even > .sorting_1, table.dataTable.order-column.stripe tbody tr.even > .sorting_1 {
+    background:none!important;
+}
+
+table.dataTable.display tbody tr.odd > .sorting_1, table.dataTable.order-column.stripe tbody tr.odd > .sorting_1 {
+    background: none!important;
+}
+
+
+.btn-warning {
+    color: #ffffff!important;
+    background-color: #93d3ef!important;
+    border-color: #93d3ef!important;
+}
+
+
+.btn-warning:hover {
+    color: #ffffff!important;
+    background-color: #4c9ec1!important;
+    border-color: #4c9ec1!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+  color:#676666!important;
+}
+
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: #676666!important;
+    border: none!important;
+    font-weight: 300!important;
+    color: white!important;
+    margin-bottom: .0rem!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: white ;
+    border:none;
+    background: #676666;
+}
+
+.breadcrumb-item a {
+    color: #01c1a2!important;
+    
+}
+{"fi

@@ -1,0 +1,21 @@
+.login-box, .register-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding:50px;
+}
+
+
+.btn-general{
+    width: 48% !important;
+    text-align: center;
+}
+
+.center-pers{
+    display:flex;
+    justify-content: center !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
